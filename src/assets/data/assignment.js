@@ -91,10 +91,15 @@ const details = [
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },
-  
   {
     id: 11,
     description: "Write a program to generate Armstrong number of three digits",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
+  {
+    id: 12,
+    description: "Write a javascript program to swap the word from lowercase to uppercase and vice versa.",
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },

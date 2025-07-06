@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Total - Grade</title>
+    <style>
+      body {
+        font-size: 4em;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const sub1 = prompt("Enter the Subject-1 Marks");
+      const sub2 = prompt("Enter the Subject-2 Marks");
+      const sub3 = prompt("Enter the Subject-3 Marks");
+      const total = (Number(sub1) + Number(sub2) + Number(sub3)) / 3;
+      console.log(total);
+      document.write(total);
+      document.write("<br>");
+
+      if (total >= 90) {
+        document.write("Grade : Ex");
+        console.log("Grade : Ex");
+      } else if (total >= 80 && total < 90) {
+        document.write("Grade : A+");
+        console.log("Grade : A+");
+      } else if (total >= 70 && total < 80) {
+        document.write("Grade : A");
+        console.log("Grade : A");
+      } else if (total >= 60 && total < 70) {
+        document.write("Grade : B+");
+        console.log("Grade : B+");
+      } else if (total < 60) {
+        document.write("Grade : Fail");
+        console.log("Grade : Fail");
+      } else {
+        document.write("Invalid Marks");
+        console.log("Invalid Marks");
+      }
+    </script>
+  </body>
+</html>

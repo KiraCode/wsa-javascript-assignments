@@ -1,6 +1,5 @@
 // technology - programming logo
-import css from "../technology/css.svg";
-import html from "../technology/html.svg";
+import javascript from "../technology/javascript.svg";
 import github from "../technology/github.svg";
 import live from "../technology/live.png";
 
@@ -16,8 +15,8 @@ const details = [
   {
     id: 1,
     description:
-      "The web page which will redirect the user to another page automatically. The web page showing the information like keywords, description, and a title",
-    fileNames: ["index.html", "redirected.html"],
+      "Write a JavaScript Program to find the gross salary of a employee.",
+    fileNames: ["index.html"],
   },
 ];
 
@@ -35,12 +34,8 @@ export const assignment = details.map(({ id, description, fileNames }) => ({
   fileNames,
   icons: [
     {
-      name: "Html",
-      src: html,
-    },
-    {
-      name: "Css",
-      src: css,
+      name: "Javascript",
+      src: javascript,
     },
   ],
 }));

@@ -91,6 +91,13 @@ const details = [
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },
+  
+  {
+    id: 11,
+    description: "Write a program to generate Armstrong number of three digits",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

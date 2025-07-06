@@ -36,6 +36,12 @@ const details = [
       "Write a program to input three subjects marks and calculate average marks and display grade according to average marks",
     fileNames: ["index.html"],
   },
+  {
+    id: 5,
+    description:
+      "Write a program to print following Patterns :",
+    fileNames: ["index.html", "script.js"],
+  },
 ];
 
 export const assignment = details.map(({ id, description, fileNames }) => ({

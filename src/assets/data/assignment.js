@@ -18,6 +18,12 @@ const details = [
       "Write a JavaScript Program to find the gross salary of a employee.",
     fileNames: ["index.html"],
   },
+  {
+    id: 2,
+    description:
+      "Write a JavaScript program to convert the given temperature in Fahrenheit to Celsius using the following conversion formula: C = F-32 / 1.8",
+    fileNames: ["index.html"],
+  },
 ];
 
 export const assignment = details.map(({ id, description, fileNames }) => ({

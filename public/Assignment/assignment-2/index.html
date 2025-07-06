@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Display Output Celsius</h1>
+    <output id="out" style="font-size: 1.5rem"></output>
+    <script>
+      let cel = document.getElementsByTagName("h1");
+      let fahrenheit = prompt("Enter the Temperature in Fahrenheit");
+      let Celsius = fahrenheit - 32 / 1.8;
+      document.getElementById("out").textContent = `CELSIUS : ${Celsius}`;
+    </script>
+  </body>
+</html>

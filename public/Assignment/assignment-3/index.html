@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-size: 4em;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      let time = prompt("Enter the Time");
+      if (time >= 1 && time < 12) {
+        document.write("Good Morning!");
+        console.log("Good Morning!");
+      } else if (time >= 12 && time < 16) {
+        document.write("Good Noon!");
+        console.log("Good Noon!");
+      } else if (time >= 16 && time < 19) {
+        document.write("Good Evening!");
+        console.log("Good Evening!");
+      } else if (time >= 19 && time < 24) {
+        document.write("Good Night!");
+        console.log("Good Night!");
+      } else {
+        document.write("Invalid Time");
+        console.log("Invalid Time");
+      }
+    </script>
+  </body>
+</html>

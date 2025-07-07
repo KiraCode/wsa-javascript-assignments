@@ -271,6 +271,12 @@ const details = [
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },
+  {
+    id: 41,
+    description: "Write a JavaScript program to find area of triangle where length of the 3 sides are given by the user",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

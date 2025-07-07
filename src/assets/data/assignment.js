@@ -359,6 +359,13 @@ const details = [
     fileNames: ["index.html", "style.css", "script.js"],
     icons: [html, css, javascript],
   },
+  {
+    id: 50,
+    description:
+      "Write a JavaScript program for open ,resize ,scroll and move the google search window",
+    fileNames: ["index.html", "style.css", "script.js"],
+    icons: [html, css, javascript],
+  },
 ];
 
 export const assignment = details.map(

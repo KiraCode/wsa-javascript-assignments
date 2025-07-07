@@ -1,0 +1,16 @@
+body,
+button {
+  font-size: 2rem;
+}
+.s11 {
+  background-color: maroon;
+  color: pink;
+}
+.s22 {
+  background-color: crimson;
+  color: yellow;
+}
+.s33 {
+  background-color: greenyellow;
+  color: brown;
+}

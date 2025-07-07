@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DropDown Delete</title>
+    <style>
+      body,
+      select,
+      button {
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="states">Dropdown List:</label>
+
+    <select name="states" id="states" onclick="selectedItem()">
+      <option value="Karnataka">Karnataka</option>
+      <option value="Kerala">Kerala</option>
+      <option value="Tamilanadu">Tamilanadu</option>
+      <option value="Telangana">Telangana</option>
+      <option value="UP">UP</option>
+    </select>
+    <button id="display" onclick="clickMe()">Display List</button>
+    <p id="selected"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>

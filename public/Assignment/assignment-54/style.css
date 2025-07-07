@@ -1,0 +1,23 @@
+h2 {
+  font-size: 2rem;
+}
+form,
+label,
+input,
+select {
+  font-size: 2rem;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  font-size: 2rem;
+}
+#registrationForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.error {
+  color: red;
+}

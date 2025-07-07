@@ -338,6 +338,13 @@ const details = [
     fileNames: ["index.html", "script.js"],
     icons: [html, javascript],
   },
+  {
+    id: 47,
+    description:
+      "Write a JavaScript program to create paragarph and buttons and change allignment dynamically by using getElementByTagName().",
+    fileNames: ["index.html", "script.js"],
+    icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

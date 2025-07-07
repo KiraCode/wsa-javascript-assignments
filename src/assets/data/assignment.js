@@ -380,6 +380,13 @@ const details = [
     fileNames: ["index.html", "style.css", "script.js"],
     icons: [html, javascript],
   },
+  {
+    id: 53,
+    description:
+      "Write a JavaScript function to check whether a string contains alpha, dash and underscore.",
+    fileNames: ["index.html", "script.js"],
+    icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

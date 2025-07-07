@@ -324,6 +324,13 @@ const details = [
     fileNames: ["index.html", "style.css", "script.js"],
     icons: [html, javascript],
   },
+  {
+    id: 45,
+    description:
+      "Write a JavaScript function to get the value of href, hreflang, rel, target and type attributes of the specified links",
+    fileNames: ["index.html", "script.js"],
+    icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

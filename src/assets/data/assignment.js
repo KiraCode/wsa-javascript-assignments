@@ -46,7 +46,7 @@ const details = [
     description:
       "Write a program to input time in hours(1hrs to 24hrs) and input am or pm as string, Display welcome message for the user.",
     fileNames: ["index.html"],
-    icons: [html, css, javascript],
+    icons: [html, javascript],
   },
   {
     id: 4,
@@ -309,20 +309,20 @@ const details = [
     description:
       "Write a JavaScript program to create a paragraph , two buttons and borderImg using HTML",
     fileNames: ["index.html", "style.css", "script.js"],
-    icons: [html, javascript],
+    icons: [html, css, javascript],
   },
   {
     id: 43,
     description: "Write a JavaScript to display a image",
     fileNames: ["index.html", "style.css", "script.js"],
-    icons: [html, javascript],
+    icons: [html, css, javascript],
   },
   {
     id: 44,
     description:
       "Write a JavaScript to modify the style of paragraph , while clicking the button font , font size and color of the pargaraph will be changed",
     fileNames: ["index.html", "style.css", "script.js"],
-    icons: [html, javascript],
+    icons: [html, css, javascript],
   },
   {
     id: 45,
@@ -342,6 +342,13 @@ const details = [
     id: 47,
     description:
       "Write a JavaScript program to create paragarph and buttons and change allignment dynamically by using getElementByTagName().",
+    fileNames: ["index.html", "style.css", "script.js"],
+    icons: [html, css, javascript],
+  },
+  {
+    id: 48,
+    description:
+      "Write a JavaScript program to create three paragraphs with different class name and manipulate style rules using CSS class selectors",
     fileNames: ["index.html", "script.js"],
     icons: [html, javascript],
   },

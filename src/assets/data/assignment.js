@@ -352,6 +352,13 @@ const details = [
     fileNames: ["index.html", "script.js"],
     icons: [html, javascript],
   },
+  {
+    id: 49,
+    description:
+      "Write a JavaScript program to make a paragraph using createElement method , create a new node with nave element , create text node with strong element and add two node int parent node",
+    fileNames: ["index.html", "style.css", "script.js"],
+    icons: [html, css, javascript],
+  },
 ];
 
 export const assignment = details.map(

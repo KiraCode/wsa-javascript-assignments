@@ -331,6 +331,13 @@ const details = [
     fileNames: ["index.html", "script.js"],
     icons: [html, javascript],
   },
+  {
+    id: 46,
+    description:
+      "Write a JavaScript program to count , display and remove items from a dropdown list",
+    fileNames: ["index.html", "script.js"],
+    icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

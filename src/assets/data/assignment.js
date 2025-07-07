@@ -129,7 +129,7 @@ const details = [
   },
   {
     id: 17,
-    description: "Write a program to join all the element of an array into string.",
+    description: "Write a progriam to join all the element of an array into string.",
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },

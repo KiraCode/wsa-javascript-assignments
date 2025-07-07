@@ -373,6 +373,13 @@ const details = [
     fileNames: ["index.html", "style.css", "script.js"],
     icons: [html, css, javascript],
   },
+  {
+    id: 52,
+    description:
+      "Write a JavaScript program create page in html , track how many times user visited your page using cookie , display info to user , date and time , display message if user is first vist",
+    fileNames: ["index.html", "style.css", "script.js"],
+    icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

@@ -145,6 +145,12 @@ const details = [
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },
+  {
+    id: 20,
+    description: "Given an array of 2n integers, write a JavaScript program to find sum of min(ai, bi)",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

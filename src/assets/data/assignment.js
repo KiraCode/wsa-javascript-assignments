@@ -91,10 +91,45 @@ const details = [
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },
-  
   {
     id: 11,
     description: "Write a program to generate Armstrong number of three digits",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
+  {
+    id: 12,
+    description: "Write a javascript program to swap the word from lowercase to uppercase and vice versa.",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
+  {
+    id: 13,
+    description: "Write a program to input a number and check whether it is odd or even",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
+  {
+    id: 14,
+    description: "Write a program to generate Fibonacci series.",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
+  {
+    id: 15,
+    description: "Write a Javascript Function to generate the unique PIN number of given length n",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
+  {
+    id: 16,
+    description: "Write a program to input 10 numbers in an array and count total positive and negative number",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
+  {
+    id: 17,
+    description: "Write a program to join all the element of an array into string.",
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },

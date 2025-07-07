@@ -366,6 +366,13 @@ const details = [
     fileNames: ["index.html", "style.css", "script.js"],
     icons: [html, css, javascript],
   },
+  {
+    id: 51,
+    description:
+      "Write a JavaScript program to display your name in every 30 seconds using timer",
+    fileNames: ["index.html", "style.css", "script.js"],
+    icons: [html, css, javascript],
+  },
 ];
 
 export const assignment = details.map(

@@ -205,6 +205,12 @@ const details = [
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },
+  {
+    id: 30,
+    description: "Write a JavaScript function to accept a parameter as a string and converts the first letter of each word in uppercase letter.",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

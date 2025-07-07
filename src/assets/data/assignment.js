@@ -317,6 +317,13 @@ const details = [
     fileNames: ["index.html", "style.css", "script.js"],
     icons: [html, javascript],
   },
+  {
+    id: 44,
+    description:
+      "Write a JavaScript to modify the style of paragraph , while clicking the button font , font size and color of the pargaraph will be changed",
+    fileNames: ["index.html", "style.css", "script.js"],
+    icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

@@ -1,14 +1,24 @@
-let num = Number(prompt("Enter a number"));
+let Employee = {
+  name: "raghunath",
 
-document.write(`Input : ${num}`);
-document.write("<br>");
+  empId: "001",
 
-let arr = [];
-for (let index = 1; index <= num; index++) {
-  if (num % index === 0) {
-    arr.push(index);
-  }
-}
+  empSalray: "10000",
 
-document.write(`factors of ${num} are : ${arr}`);
-document.write("<br>");
+  deptName: "WSA",
+};
+
+document.write(`a) Employee Details : <br> 
+      name : ${Employee.name} <br> 
+      empId : ${Employee.empId} <br>
+      empSalray : ${Employee.empSalray} <br> 
+      deptName : ${Employee.deptName} <br> <br>`);
+
+document.write(
+  `b) Length of the Employee object : ${
+    Object.keys(Employee).length
+  } <br> <br> `
+);
+delete Employee.deptName;
+document.write(`c) deptName deleted`);
+console.log(Employee);

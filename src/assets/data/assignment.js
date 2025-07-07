@@ -134,8 +134,14 @@ const details = [
    icons: [html, javascript],
   },
   {
-    id: 17,
+    id: 18,
     description: "Write a program to compute sum and product of array of integer.",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
+  {
+    id: 19,
+    description: "Write a program to arrange the element of an array in ascending and descending order.",
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },

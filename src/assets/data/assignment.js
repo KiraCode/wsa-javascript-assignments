@@ -157,6 +157,12 @@ const details = [
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },
+  {
+    id: 22,
+    description: "Write a Javascript program to scramble the word to given position.",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

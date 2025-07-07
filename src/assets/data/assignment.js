@@ -387,6 +387,13 @@ const details = [
     fileNames: ["index.html", "script.js"],
     icons: [html, javascript],
   },
+  {
+    id: 54,
+    description:
+      "Write a JavaScript program to create email registration form and validate the following data , all the fields must have entered data.",
+    fileNames: ["index.html", "style.css", "script.js"],
+    icons: [html, css, javascript],
+  },
 ];
 
 export const assignment = details.map(

@@ -1,0 +1,135 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Email Registration Form</h2>
+    <form id="registrationForm">
+      <label
+        >First Name:
+        <input
+          type="text"
+          id="firstName"
+          placeholder="First Name"
+          maxlength="10"
+          required
+      /></label>
+      <br />
+      <label
+        >Last Name:
+        <input
+          type="text"
+          id="lastName"
+          placeholder="Last Name"
+          maxlength="10"
+          required
+      /></label>
+      <br />
+      <label
+        >Username:
+        <input
+          type="text"
+          id="username"
+          placeholder="Minimum 8 characters"
+          minlength="8"
+          required
+      /></label>
+      <br />
+      <label
+        >Password:
+        <input
+          type="password"
+          id="password"
+          placeholder="Password (6-20 characters)"
+          required /></label
+      ><br />
+      <label
+        >Confirm Password: <input type="password" id="confirmPassword" required
+      /></label>
+      <br />
+      <label
+        >Birthday:
+        <select id="month" required>
+          <option value="">Month</option>
+          <script>
+            const months = [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec",
+            ];
+            months.forEach((month, index) => {
+              document.write(`<option value="${index + 1}">${month}</option>`);
+            });
+          </script>
+        </select>
+        <input
+          type="number"
+          id="day"
+          placeholder="Day"
+          min="1"
+          max="31"
+          required
+        />
+        <input
+          type="number"
+          id="year"
+          placeholder="Year"
+          min="1900"
+          max="2025"
+          required
+        />
+      </label>
+      <br />
+      <label
+        >Country:
+        <select id="country" required>
+          <option value="">Select your country</option>
+          <option>USA</option>
+          <option>Canada</option>
+          <option>India</option>
+          <option>UK</option>
+        </select>
+      </label>
+      <br />
+      <label
+        >Gender: <input type="checkbox" id="male" /> Male
+        <input type="checkbox" id="female" /> Female
+      </label>
+      <br />
+      <label
+        >Phone Number:
+        <input type="text" id="phone" placeholder="10 digits only" required
+      /></label>
+      <br />
+      <label
+        >Alternative Email:
+        <input
+          type="email"
+          id="altEmail"
+          placeholder="example@gmail.com"
+          required
+      /></label>
+      <br />
+      <label>
+        <input type="checkbox" id="terms" required /> I agree to the Google
+        Terms of Service and Privacy Policy
+      </label>
+      <br />
+      <button type="submit">Submit</button>
+      <p class="error" id="errorMsg"></p>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

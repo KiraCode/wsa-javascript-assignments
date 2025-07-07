@@ -265,6 +265,12 @@ const details = [
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },
+  {
+    id: 40,
+    description: "Write a JavaScript program to change the content of paragraph.",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

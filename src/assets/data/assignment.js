@@ -193,6 +193,12 @@ const details = [
     fileNames: ["index.html", "script.js"],
    icons: [html, javascript],
   },
+  {
+    id: 28,
+    description: "Write a Javascript program to Write a JavaScript function to check whether it is palindrome or not.",
+    fileNames: ["index.html", "script.js"],
+   icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

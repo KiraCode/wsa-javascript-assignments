@@ -311,6 +311,12 @@ const details = [
     fileNames: ["index.html", "style.css", "script.js"],
     icons: [html, javascript],
   },
+  {
+    id: 43,
+    description: "Write a JavaScript to display a image",
+    fileNames: ["index.html", "style.css", "script.js"],
+    icons: [html, javascript],
+  },
 ];
 
 export const assignment = details.map(

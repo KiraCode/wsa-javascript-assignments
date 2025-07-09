@@ -22,10 +22,6 @@ const assignmentHtml = (i) => {
   return `/Assignment/assignment-${i}/index.html`;
 };
 
-const imageName = (i) => {
-  return `/Assignment/assignment-${i}/image.png`;
-};
-
 const details = [
   {
     id: 1,
@@ -400,7 +396,7 @@ export const assignment = details.map(
   ({ id, description, fileNames, icons }) => ({
     id,
     title: "Assignment ",
-    image: imageName(id),
+    image: "",
     description,
     view: {
       liveLink: assignmentHtml(id),

@@ -27,13 +27,8 @@ const Card = ({ id, title, description, image, view, icons, fileNames }) => {
   return (
     <div className="w-full sm:max-w-md lg:max-w-lg bg-primary rounded-t-lg rounded-b-2xl shadow-md flex flex-col overflow-hidden transition-all duration-300">
       <img
-        src={image}
+        src="https://thumbs.dreamstime.com/b/code-editor-interface-computer-screen-development-programming-concept-283519018.jpg"
         alt={title}
-        onError={(e) => {
-          e.target.onerror = null; // prevent infinite loop
-          e.target.src =
-            "https://thumbs.dreamstime.com/b/code-editor-interface-computer-screen-development-programming-concept-283519018.jpg"; // your fallback image
-        }}
         className="w-full h-40 sm:h-38 lg:h-46 object-cover object-center rounded"
       />
 
